@@ -1,0 +1,37 @@
+
+#srh:hover{
+    background-color: orange;
+    color: black;
+  }
+  #rcb:hover{
+    background-color: red;
+    color: black;
+  }
+  #kkr:hover{
+    background-color: blueviolet;
+    color: black;
+  }
+  #csk:hover{
+    background-color: yellow;
+    color: black;
+  }
+  div a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  .container {
+    display: flex;
+  }
+  
+  .container > div {
+    margin-right: 330px; 
+  }
+  
+  
+  
